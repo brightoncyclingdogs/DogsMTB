@@ -39,9 +39,6 @@ img{
   padding-left: 2em;
   height: 100vh;
   width: 100%;
-/*  max-width: 350px;
-  min-height: fit-content;
-  min-height:  850px;*/
   max-width: fit-content;
   position: fixed;
   top: clamp(1.5rem, 3vw, 2.5rem);
@@ -61,14 +58,8 @@ img{
     height: 80vh;
     top: 11vw;
   }
-}/*
-@media screen and (max-height: 767px) {
-  .off-screen-menu, .dropdown {
-    height: 90vh;
-    top: 5vw;
-    background:pink
-  }
-}*/
+}
+
 .off-screen-menu .dropdown{
   top:clamp(1.5rem, 5vw, 2.5rem);
   margin-top: clamp(1.5rem, 5vw, 2.5rem);
@@ -170,11 +161,9 @@ img{
   max-height:80px;
   place-self: end;
   margin-right: 20%;
-  background-color:white ;
-  border-radius: 3px;
 }
 #nav-logo:hover{
-  background-color: var(--tertiary-color);
+  opacity: 50%;
 }
 /*END OF NAV*/
 
@@ -211,7 +200,6 @@ img{
 }
 
 .main-body .team-pic{
- /* border: black 1em solid;*/
   display: flex;
   border: black 6px solid;
   border-radius: 2px;
@@ -226,7 +214,7 @@ img{
   width: 100%;
   background: black;
   color: white;
-  font-size: clamp(1.5rem, 6vw, 3rem);
+  font-size: clamp(1.5rem, 5vw, 3rem);
   padding-bottom: .35em;
 }
 
@@ -234,11 +222,11 @@ img{
   margin-top: 50px;
   margin-bottom: 50px;
 }
-h1,
+h1 /*,
 .main-body-text h1,
 .main-content .main-paragraph .main-text h1,
 .main-content .main-paragraph h1,
-.main-content .main-paragraph .column-text h1{
+.main-content .main-paragraph .column-text h1 */{
   font-size: clamp(1.5rem, 6vw, 3rem);
   margin: 1.5em;
 }
@@ -348,7 +336,7 @@ padding-bottom: 20px;
 .main-content .main-paragraph .column-pic .coaches-pics .coaches . img,
 .main-content .main-paragraph .column-pic .captains-pics .captains .img{
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
   aspect-ratio: 1/1;
   display: block;
 }
