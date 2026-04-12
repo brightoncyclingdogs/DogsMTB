@@ -451,3 +451,9 @@ overflow: hidden;
 .btn:hover, .button-link:hover{
   color: var(--tertiary-color);
 }
+
+.div404{
+  display: block;
+  text-align: center;
+
+}
