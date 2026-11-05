@@ -1,0 +1,103 @@
+[
+  {
+    "year": "2026",
+    "items": [
+      {
+        "title": "2026 Individual Photos",
+        "url": "https://photos.app.goo.gl/Uo5qqjWSyV9m8vMU7",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczOEFWfeHkoYqPVw_hWVSsep2oz0TE5qZlfbK5mx7D-ar-WSKh6dz5FNNQwjtiUqHt4cbvPzSeItkBsSRW8d13Xrze8BN294pWKUQuF2Qad9GknLx4UVXbzAqPsMMji-Ew92XtJny-8KEzpC151_J90=w2084-h1390-s-no-gm?authuser=0",
+        "alt": "Thumbnail for 2026 individual photos"
+      },
+      {
+        "title": "2026 Team Photos",
+        "url": "https://photos.app.goo.gl/wzJwuwiQRwKicxWB8",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczPhHH1hRKdcoKD9wh1UgJmpt_61B-j-bmpZshrqDTX6hGzvB6K5eaKpk0EWKjMaDh_kdPf0b57GDDoU1LxF7_tnEvZ1GRfmOS6BhoJKctZyoyeIM-ZP-ddQdPW7IYniE77EfVK_6NRRJJFmuodlccA=w2082-h1390-s-no-gm?authuser=0",
+        "alt": "Thumbnail for 2026 team photos"
+      },
+      {
+        "title": "2026 End of Season Video",
+        "url": "https://youtu.be/nbOyJC_0zCY"
+      }
+    ]
+  },
+  {
+    "year": "2025",
+    "items": [
+      {
+        "title": "2025 Photos",
+        "url": "https://photos.google.com/share/AF1QipMoaRFbArHKHBsgtpdnA7li_1Ln6ZXw1zEEitERVpk8Z3l-cZ4PW3xtt6_Ft7xT3g?key=TGtTeXRuY1dYUHlhUV8ybExFWjFKTTBtSE1CNUlB",
+        "image": "DogsMTBImages/Brighton2025__DSC_3355.JPG",
+        "alt": "Thumbnail for 2025 photos"
+      },
+      {
+        "title": "2025 End of Season Video",
+        "url": "https://youtu.be/O8WJLWQhaIk"
+      }
+    ]
+  },
+  {
+    "year": "2024",
+    "items": [
+      {
+        "title": "2024 Photos",
+        "url": "https://www.dogsmtb.com/2024/photos",
+        "image": "DogsMTBImages/thumbnailPic24.png",
+        "alt": "Thumbnail for 2024 photos"
+      },
+      {
+        "title": "2024 End of Season Video",
+        "url": "https://youtu.be/QFCMrS2HoFo"
+      }
+    ]
+  },
+  {
+    "year": "2023",
+    "items": [
+      {
+        "title": "2023 Photos",
+        "url": "https://www.dogsmtb.com/2023/",
+        "image": "DogsMTBImages/thumbnailPic23.png",
+        "alt": "Thumbnail for 2023 photos"
+      },
+      {
+        "title": "2023 End of Season Video",
+        "url": "https://youtu.be/GDEiR5JICRs"
+      }
+    ]
+  },
+  {
+    "year": "2022",
+    "items": [
+      {
+        "title": "2022 Photos",
+        "url": "https://www.dogsmtb.com/2022/",
+        "image": "DogsMTBImages/thumbnailPic22.png",
+        "alt": "Thumbnail for 2022 photos"
+      },
+      {
+        "title": "2022 End of Season Video",
+        "url": "https://youtu.be/8TvUpO26eFI"
+      }
+    ]
+  },
+  {
+    "year": "2021",
+    "items": [
+      {
+        "title": "2021 End of Season Video",
+        "url": "https://youtu.be/rXR_8XMX2og"
+      }
+    ]
+  },
+  {
+    "year": "The Beginning Years",
+    "items": [
+      {
+        "title": "Photos Through the Years",
+        "url": "https://photos.google.com/share/AF1QipOAaTCqvylNB31GEgdHu4J9aLY4BSlcUy1HffFKhuTK7LZ--LAMvtmpBawjHJ6-Lg?key=QldjRmhuQ0FrU2JKSVkxUFBqeTlVWGhIeUR1Yi1B",
+        "image": "DogsMTBImages/thumbnailThroughYears.png",
+        "alt": "Thumbnail for photos through the years"
+      }
+    ]
+  }
+]
