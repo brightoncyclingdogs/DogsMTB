@@ -100,49 +100,22 @@
             <br>
             <div class="column-pic">
              <h1>Coaches</h1>
-             <div class="coaches-pics">
-               <div class="coaches">
-                 <div class="column">
-                  <img src="DogsMTBImages/coachGreg.png" alt="picture of head coach"/>
-                   <div class="pic-words-small">
-                     <p>Head Coach<br>
-                       <!-- Only change the name below -->
-                    Greg Giles</p>
-                   </div>
-                 </div>
-               </div>
-               <div class="coaches">
-                <div class="column">
-                 <img src="DogsMTBImages/coachJerome.png" alt="picture of assistant head coach"/>
-                  <div class="pic-words-small">
-                    <p>Assistant Coach<br>
-                      <!-- Only change the name below -->
-                    Jerome Beck</p>
-                  </div>
-                </div>
-               </div>
-               <div class="coaches">
-                <div class="column">
-                  <img src="DogsMTBImages/coachBoys.png" alt="picture of varsity boys coach"/>
-                  <div class="pic-words-small">
-                    <p>Varsity Boys Coach<br>
-                      <!-- Only change the name below -->
-                    Matt Pruski</p>
-                  </div>
-                </div>
-               </div>
-              <div class="coaches">
-               <div class="column">
-                 <img src="DogsMTBImages/coachHeather.png" alt="picture of varsity girls coach"/>
-                 <div class="pic-words-small">
-                   <p>Varsity Girls Coach<br>
-                     <!-- Only change the name below -->
-                   Heather Beck</p>
-                 </div>
-               </div>
-              </div>
-             </div>
+            <div class="coaches-pics" id="coaches-pics"></div>
             </div>
+            <template id="coach-template">
+             <div class="coaches">
+               <div class="column">
+                 <img/>
+                 <div class="pic-words-small"><p></p></div>
+               </div>
+             </div>
+            </template>
+            <template id="captain-template">
+             <div class="captains">
+               <img/>
+               <div class="pic-words-small"><p></p></div>
+             </div>
+            </template>
             <br>
             <hr>
             <br>
@@ -150,64 +123,7 @@
               <div class=" column-pic">
                 <div class="captains-pics-section">
                   <h1>Student Captains</h1>
-                  <div class = captains-pics >
-                    <div class="captains">
-                      <img src="DogsMTBImages/capAnna.png" alt="picture of student captain"/>
-                      <div class="pic-words-small">
-                        <p>High School <br>
-                          <!-- Only change the name below -->
-                        Anna Giles</p>
-                      </div>
-                    </div>
-                    <div class="captains">
-                      <img src="DogsMTBImages/capGarrett.png" alt="picture of student captain"/>
-                      <div class="pic-words-small">
-                        <p>High School <br>
-                          <!-- Only change the name below -->
-                        Garrett Smith</p>
-                      </div>
-                    </div>
-                    <div class="captains">
-                      <img src="DogsMTBImages/capAshley.png" alt="picture of student captain"/>
-                      <div class="pic-words-small">
-                        <p>High School <br>
-                          <!-- Only change the name below -->
-                        Ashley Cranston</p>
-                      </div>
-                    </div>
-                    <div class="captains">
-                      <img src="DogsMTBImages/capParker.png" alt="picture of student captain"/>
-                      <div class="pic-words-small">
-                       <p>High School <br>
-                         <!-- Only change the name below -->
-                       Parker Vince</p>
-                      </div>
-                    </div>
-                    <div class="captains">
-                      <img src="DogsMTBImages/capJack.png" alt="picture of student captain"/>
-                      <div class="pic-words-small">
-                        <p>High School <br>
-                          <!-- Only change the name below -->
-                          Jack Frey</p>
-                      </div>
-                    </div>
-                    <div class="captains">
-                      <img src="DogsMTBImages/capElias.png" alt="picture of student captain"/>
-                      <div class="pic-words-small">
-                        <p>Middle School<br>
-                          <!-- Only change the name below -->
-                        Elias Beck</p>
-                      </div>
-                    </div>
-                    <div class="captains">
-                      <img src="DogsMTBImages/capCru.png" alt="picture of student captain"/>
-                      <div class="pic-words-small">
-                        <p>Middle School<br>
-                          <!-- Only change the name below -->
-                        Cru Simpson</p>
-                      </div>
-                    </div>
-                  </div>
+                  <div class="captains-pics" id="captains-pics"></div>
                   <br><br>
                   <hr>
                   <br>

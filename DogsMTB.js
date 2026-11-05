@@ -64,6 +64,53 @@ document.addEventListener("DOMContentLoaded", () =>{
     });
   });
 
+  const coachesContainer = document.querySelector("#coaches-pics");
+  const captainsContainer = document.querySelector("#captains-pics");
+  if (coachesContainer && captainsContainer) {
+    const coachTemplate = document.querySelector("#coach-template");
+    const captainTemplate = document.querySelector("#captain-template");
+    if (!coachTemplate || !captainTemplate) {
+      throw new Error("About page profile templates were not found");
+    }
+
+    fetch("about.json")
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`About data request failed: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(profiles => {
+        if (!Array.isArray(profiles.coaches) || !Array.isArray(profiles.captains)) {
+          throw new Error("About data must include coaches and captains arrays");
+        }
+
+        const appendProfiles = (container, template, entries) => {
+          const content = document.createDocumentFragment();
+          entries.forEach(profile => {
+            const card = template.content.firstElementChild.cloneNode(true);
+            const image = card.querySelector("img");
+            image.src = profile.image;
+            image.alt = profile.alt || `${profile.role} ${profile.name}`;
+            const label = card.querySelector("p");
+            label.textContent = profile.role;
+            label.appendChild(document.createElement("br"));
+            label.appendChild(document.createTextNode(profile.name));
+            content.appendChild(card);
+          });
+          container.appendChild(content);
+        };
+
+        appendProfiles(coachesContainer, coachTemplate, profiles.coaches);
+        appendProfiles(captainsContainer, captainTemplate, profiles.captains);
+      })
+      .catch(error => {
+        console.error("Failed to load about page profiles", error);
+        coachesContainer.textContent = "The coach list could not be loaded. Please try again later.";
+        captainsContainer.textContent = "The captain list could not be loaded. Please try again later.";
+      });
+  }
+
   const gallerySections = document.querySelector("#gallery-sections");
   if (!gallerySections) {
     return;

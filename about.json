@@ -1,0 +1,72 @@
+{
+  "coaches": [
+    {
+      "role": "Head Coach",
+      "name": "Jerome Beck",
+      "image": "DogsMTBImages/coachJerome.png",
+      "alt": "Head coach Jerome Beck"
+    },
+    {
+      "role": "Varsity Girls Coach",
+      "name": "Heather Beck",
+      "image": "DogsMTBImages/coachHeather.png",
+      "alt": "Varsity girls coach Heather Beck"
+    },
+    {
+      "role": "Varsity Boys Coach",
+      "name": "Matt Pruski",
+      "image": "DogsMTBImages/coachBoys.png",
+      "alt": "Varsity boys coach Matt Pruski"
+    },
+    {
+      "role": "Assistant Coach",
+      "name": "Greg Giles",
+      "image": "DogsMTBImages/coachGreg.png",
+      "alt": "Coach Greg Giles"
+    }
+  ],
+  "captains": [
+    {
+      "role": "High School",
+      "name": "Anna Giles",
+      "image": "DogsMTBImages/capAnna.png",
+      "alt": "High school student captain Anna Giles"
+    },
+    {
+      "role": "High School",
+      "name": "Garrett Smith",
+      "image": "DogsMTBImages/capGarrett.png",
+      "alt": "High school student captain Garrett Smith"
+    },
+    {
+      "role": "High School",
+      "name": "Ashley Cranston",
+      "image": "DogsMTBImages/capAshley.png",
+      "alt": "High school student captain Ashley Cranston"
+    },
+    {
+      "role": "High School",
+      "name": "Parker Vince",
+      "image": "DogsMTBImages/capParker.png",
+      "alt": "High school student captain Parker Vince"
+    },
+    {
+      "role": "High School",
+      "name": "Jack Frey",
+      "image": "DogsMTBImages/capJack.png",
+      "alt": "High school student captain Jack Frey"
+    },
+    {
+      "role": "Middle School",
+      "name": "Elias Beck",
+      "image": "DogsMTBImages/capElias.png",
+      "alt": "Middle school student captain Elias Beck"
+    },
+    {
+      "role": "Middle School",
+      "name": "Cru Simpson",
+      "image": "DogsMTBImages/capCru.png",
+      "alt": "Middle school student captain Cru Simpson"
+    }
+  ]
+}

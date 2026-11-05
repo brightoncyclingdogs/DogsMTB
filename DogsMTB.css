@@ -333,11 +333,11 @@ padding-bottom: 20px;
   position: relative;
   overflow: hidden;
 }
-.main-content .main-paragraph .column-pic .coaches-pics .coaches . img,
-.main-content .main-paragraph .column-pic .captains-pics .captains .img{
+.main-content .main-paragraph .column-pic .coaches-pics .coaches img,
+.main-content .main-paragraph .column-pic .captains-pics .captains img{
   width: 100%;
-  object-fit: fill;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   display: block;
 }
 .main-content .main-paragraph .column-pic .gallery-pics .thumbnails .img{
