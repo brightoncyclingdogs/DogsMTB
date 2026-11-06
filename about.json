@@ -28,45 +28,51 @@
   "captains": [
     {
       "role": "High School",
-      "name": "Anna Giles",
-      "image": "DogsMTBImages/capAnna.png",
-      "alt": "High school student captain Anna Giles"
-    },
-    {
-      "role": "High School",
-      "name": "Garrett Smith",
-      "image": "DogsMTBImages/capGarrett.png",
-      "alt": "High school student captain Garrett Smith"
-    },
-    {
-      "role": "High School",
-      "name": "Ashley Cranston",
-      "image": "DogsMTBImages/capAshley.png",
-      "alt": "High school student captain Ashley Cranston"
-    },
-    {
-      "role": "High School",
       "name": "Parker Vince",
-      "image": "DogsMTBImages/capParker.png",
+      "image": "DogsMTBImages/capParker.jpg",
       "alt": "High school student captain Parker Vince"
     },
     {
       "role": "High School",
       "name": "Jack Frey",
-      "image": "DogsMTBImages/capJack.png",
+      "image": "DogsMTBImages/capJack.jpg",
       "alt": "High school student captain Jack Frey"
     },
     {
-      "role": "Middle School",
+      "role": "High School",
+      "name": "Kelsey Innes",
+      "image": "DogsMTBImages/capKelsey.jpg",
+      "alt": "High school student captain Kelsey Innes"
+    },
+    {
+      "role": "High School",
       "name": "Elias Beck",
-      "image": "DogsMTBImages/capElias.png",
-      "alt": "Middle school student captain Elias Beck"
+      "image": "DogsMTBImages/capElias.jpg",
+      "alt": "High school student captain Elias Beck"
+    },
+    {
+      "role": "High School",
+      "name": "Liam West",
+      "image": "DogsMTBImages/capLiamW.jpg",
+      "alt": "High school student captain Liam West"
     },
     {
       "role": "Middle School",
-      "name": "Cru Simpson",
-      "image": "DogsMTBImages/capCru.png",
-      "alt": "Middle school student captain Cru Simpson"
+      "name": "Evan Hodder",
+      "image": "DogsMTBImages/capEvan.jpg",
+      "alt": "High school student captain Evan Hodder"
+    },
+    {
+      "role": "Middle School",
+      "name": "Liam Jilbert",
+      "image": "DogsMTBImages/capLiamJ.jpg",
+      "alt": "High school student captain Liam Jilbert"
+    },
+    {
+      "role": "Middle School",
+      "name": "Julien Poirier",
+      "image": "DogsMTBImages/capJulien.jpg",
+      "alt": "Middle school student captain Julien Poirier"
     }
   ]
 }
