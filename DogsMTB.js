@@ -44,6 +44,20 @@ document.addEventListener('click', function(event) {
   }}
 });
 
+const teamPhotoOpen = document.querySelector("#team-photo-open");
+const teamPhotoDialog = document.querySelector("#team-photo-dialog");
+const teamPhotoClose = document.querySelector("#team-photo-close");
+
+if (teamPhotoOpen && teamPhotoDialog && teamPhotoClose) {
+  teamPhotoOpen.addEventListener("click", () => teamPhotoDialog.showModal());
+  teamPhotoClose.addEventListener("click", () => teamPhotoDialog.close());
+  teamPhotoDialog.addEventListener("click", event => {
+    if (event.target === teamPhotoDialog) {
+      teamPhotoDialog.close();
+    }
+  });
+}
+
 //FAQ
 document.addEventListener("DOMContentLoaded", () =>{
   const questions = document.querySelectorAll(".faq-question");
@@ -152,9 +166,6 @@ document.addEventListener("DOMContentLoaded", () =>{
         });
 
         content.appendChild(sectionElement);
-        content.appendChild(document.createElement("br"));
-        content.appendChild(document.createElement("hr"));
-        content.appendChild(document.createElement("br"));
       });
 
       gallerySections.appendChild(content);

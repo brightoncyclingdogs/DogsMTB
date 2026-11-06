@@ -68,29 +68,27 @@
 </nav>
 
 <!-- Main Body -->
-<div class="main-content">
+<div class="main-content gallery-page">
   <section class="main-body">
     <div class="container" id="block-text-bulldog-row">
       <div class = "row" >
         <picture class="logo"> <!--
             <source srcset="DogsMTBImages/aboutBlockXL.png" media="(min-width: 1274px)">
             <source srcset="DogsMTBImages/aboutBlockMd.png" media="(min-width: 768px)"> -->
-          <img src="DogsMTBImages/galleryBlockXL.png" alt="block lettering of about with the team logo"/>
+          <img src="DogsMTBImages/galleryBlockXL.png" alt="block lettering of gallery with the team logo"/>
         </picture>
       </div>
     </div>
     <div class="container">
       <div class = "row" >
-        <div class="main-paragraph"> <hr> <br>
-          <h1>Photos Through The Years</h1>
-          <br><hr><br>
+        <div class="main-paragraph gallery-main">
+          <h1 class="gallery-heading">Photos Through The Years</h1>
           <div id="gallery-sections"></div>
           <template id="gallery-section-template">
-            <div class="column-pic">
-              <h1 data-year></h1>
+            <section class="gallery-year">
+              <h2 data-year></h2>
               <div class="gallery-pics" data-items></div>
-            </div>
-            <br><hr><br>
+            </section>
           </template>
           <template id="gallery-item-template">
             <div class="thumbnails">
