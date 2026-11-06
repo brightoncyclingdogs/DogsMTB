@@ -84,6 +84,12 @@
     "year": "2021",
     "items": [
       {
+        "title": "2021 Photos",
+        "url": "https://photos.app.goo.gl/BfNQjBJjm1VFY6sV8",
+        "image": "DogsMTBImages/thumbPic21.png",
+        "alt": "Thumbnail for 2021 photos"
+      },
+      {
         "title": "2021 End of Season Video",
         "url": "https://youtu.be/rXR_8XMX2og"
       }
